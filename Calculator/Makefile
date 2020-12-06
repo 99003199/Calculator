@@ -12,6 +12,8 @@ PROJECT_NAME = Calculator.out
 # Output directory
 BUILD = build
 
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
+
 $(PROJECT_NAME): $(SRC)
 	gcc $(SRC) $(INC) -o $(PROJECT_NAME)
 
